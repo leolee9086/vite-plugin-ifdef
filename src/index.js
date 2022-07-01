@@ -1,5 +1,7 @@
+"use strict";
+
 import { Plugin, ResolvedConfig } from 'vite';
-import  parse  from './src/preprocessor';
+import  parse  from './preprocessor.js';
 
 const vitePluginIfDef = (userOptions = {}) => {
   let data;
@@ -17,7 +19,7 @@ const vitePluginIfDef = (userOptions = {}) => {
     },
     transform(code, id) {
       let verboseFlag = "verbose";
-      verbose = option[verboseFlag]
+      let  verbose = option[verboseFlag]
       
       let tripleSlashFlag = "ifdef-triple-slash";
       let tripleSlash = option[tripleSlashFlag];

@@ -1,16 +1,16 @@
 {
   "name": "vite-plugin-ifdef",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "a plugin for condition complie in vite ,transplant from webpack plugin ifdef-loader(https://github.com/nippur72/ifdef-loader#readme)",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
+  "main": "dist/index.js",
+  
   "keywords": [
     "vite",
     "condition",
     "complie"
   ],
+ 
+
   "author": "leolee9086",
   "license": "MIT",
   "repository": {
