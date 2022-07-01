@@ -35,4 +35,4 @@ ifdef-config:{
 
 解析部分完全来自webpack的 `ifdef-loader`插件，只增加了在verbose模式下控制台输出带行号。
 
-`https://github.com/leolee9086/vite-plugin-ifdef`
+https://github.com/nippur72/ifdef-loader
