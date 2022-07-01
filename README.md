@@ -1,3 +1,9 @@
+## 安装
+
+```
+npm i vite-plugin-ifdef
+```
+
 ## 功能
 
 在vite启动的时候支持配置条件解析.
